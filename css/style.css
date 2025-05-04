@@ -471,3 +471,51 @@
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
   }
+  
+  .slider {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+  .slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    animation: slide 20s infinite;
+  }
+
+  .slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @keyframes slide {
+    0%   {margin-left: 0%;}
+    20%  {margin-left: 0%;}
+    25%  {margin-left: -100%;}
+    45%  {margin-left: -100%;}
+    50%  {margin-left: -200%;}
+    70%  {margin-left: -200%;}
+    75%  {margin-left: -300%;}
+    95%  {margin-left: -300%;}
+    100% {margin-left: 0%;}
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
