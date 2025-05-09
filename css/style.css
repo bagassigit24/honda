@@ -400,7 +400,7 @@
     margin-bottom: 30px;
   }
 
-  /* .swiper {
+  .swiper {
     padding: 20px 0;
     background-color: white;
   }
@@ -429,8 +429,8 @@
     font-weight: bold;
     font-size: 18px;
     margin: 0;
-  } */
-
+  }
+/* 
   .swiper {
     padding: 20px 0;
     background-color: white;
@@ -445,16 +445,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%; /* Ensure full height use */
+    height: 100%; 
   }
   
   .swiper-slide img {
     width: 100%;
-    height: 400px; /* Fixed height for uniformity */
-    object-fit: cover; /* Crop to fill, preserve aspect */
+    height: 400px;
+    object-fit: cover; 
     display: block;
   }
-  
+   */
   .btn-konsultasi {
     background-color: red;
     color: white;
